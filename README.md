@@ -19,6 +19,10 @@ pip install tflearn==0.3.1
 ## Run
 
 ```bash
-python get_video_sizes.py
 python multi_agent.py
+```
+
+If you need to train on different videos, setup video files and run:
+```bash
+python get_video_sizes.py
 ```
