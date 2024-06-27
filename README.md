@@ -34,3 +34,14 @@ If you need to train on different videos, setup video files and run:
 ```bash
 python get_video_sizes.py
 ```
+
+## Test
+
+Copy the model to abr_eval/models, change path in rl_no_training.py file.
+
+```bash
+python rl_no_training.py
+python bb.py
+python mpc.py
+python dp.py
+```
