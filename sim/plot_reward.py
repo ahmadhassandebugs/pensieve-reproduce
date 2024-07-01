@@ -29,7 +29,7 @@ def moving_average(input_list, window_size):
 
     return moving_averages
 
-window_size = 25
+window_size = 100
 mean_rewards = moving_average(mean_rewards, window_size)
 
 plt.plot(epochs[:-window_size+1], mean_rewards)
