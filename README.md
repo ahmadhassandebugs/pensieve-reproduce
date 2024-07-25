@@ -2,6 +2,8 @@
 
 Reproduce [pensieve](https://github.com/hongzimao/pensieve/tree/master).
 
+Use the commands below to easily set up virtual envs and requirements without worrying about version issues.
+
 ## Setup
 
 Set up conda env
